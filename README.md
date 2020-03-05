@@ -41,7 +41,7 @@ MT=2
 You can enable the script to work on only battery mode by using Method 2 and commenting Method 1.
 ```bash
 #Method 2: Works only when not on AC power
-#if ! pmset -g batt | grep 'AC Power'MT=2
+#if ! pmset -g batt | grep 'AC Power'
 .
 .
 ```
