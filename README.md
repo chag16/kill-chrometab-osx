@@ -21,9 +21,17 @@ sudo crontab -e
 10 * * * * [path]/job.sh >/tmp/stdout.log 2>>/tmp/stderr.log
 ```
 
-You can tweak the memory threshold  by changing MT.
+You can tweak the memory threshold above which to kill tabs by changing MT.
 
 ```bash
-sudo crontab -e
-10 * * * * [path]/job.sh >/tmp/stdout.log 2>>/tmp/stderr.log
+# Memory Threshold (% of Memory). Allows to tweak the threshold above which chrome tabs will be killed
+MT=2
+```
+
+You can enable the script to work on only battery mode by using Method 2 and commenting Method 1
+```bash
+#Method 2: Works only when not on AC power
+#if ! pmset -g batt | grep 'AC Power'MT=2
+.
+.
 ```
