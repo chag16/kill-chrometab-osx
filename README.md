@@ -1,5 +1,5 @@
 # kill-chrometabs-osx
-Kills the Chrome Tabs which are hogging memory in OSX
+Kills the Chrome Tabs which are hogging memory in OSX.
 
 ---
 
@@ -28,7 +28,7 @@ You can tweak the memory threshold above which to kill tabs by changing MT.
 MT=2
 ```
 
-You can enable the script to work on only battery mode by using Method 2 and commenting Method 1
+You can enable the script to work on only battery mode by using Method 2 and commenting Method 1.
 ```bash
 #Method 2: Works only when not on AC power
 #if ! pmset -g batt | grep 'AC Power'MT=2
@@ -44,4 +44,4 @@ https://github.com/chag16/kill-chrometabs-osx/issues
 ## Contributing
 Please submit patches to code or documentation as GitHub pull requests! 
 
-Contributions must be licensed under the GNU GPLv3. The contributor retains the copyright
+Contributions must be licensed under the GNU GPLv3. The contributor retains the copyright.
