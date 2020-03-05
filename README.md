@@ -53,5 +53,3 @@ https://github.com/chag16/kill-chrometabs-osx/issues
 
 ## Contributing
 Please submit patches to code or documentation as GitHub pull requests! 
-
-Contributions must be licensed under the GNU GPLv3. The contributor retains the copyright.
