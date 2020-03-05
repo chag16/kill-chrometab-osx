@@ -12,6 +12,16 @@ sudo sh job.sh
 ```
 Chrome tabs using memory greater than 2% of total will be killed. 
 
+
+## Troubleshooting
+
+You may need to give execute permissions to the .sh file.
+
+```bash
+sudo chmod 744 job.sh
+```
+
+
 ## Usage
 
 You can set up a cron to run this command every 10 minutes, to clean the chrome tabs hogging memory. 
